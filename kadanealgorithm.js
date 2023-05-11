@@ -14,8 +14,6 @@ let kedane_algo = ()=>{
 		}else if(current_sum < 0){
 			current_sum = 0;
 		}
-
-
 	}
 	console.log(max_sum);
 	return max_sum;
