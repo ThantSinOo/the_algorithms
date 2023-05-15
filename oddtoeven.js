@@ -8,7 +8,7 @@ const odd_to_even = (arr) =>{
 		// 	let temp = [i] + 1;
 		// 	edited_even.push(temp);
 		// }
-		console.log([i].values);
+		console.log([i);
 	}
 	// console.log("Original Even",original_even);
 	// console.log("Edited Even",edited_even);
