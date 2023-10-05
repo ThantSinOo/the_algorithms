@@ -11,7 +11,9 @@ let bubblesort = (arr) =>{
 				arr[i] = arr[i + 1];
 				arr[i + 1] = temp;
 				swapped = true;
+				
 			}
+			console.log("It run");
 		}
 		n--;
 	} while (swapped);
@@ -20,7 +22,7 @@ let bubblesort = (arr) =>{
 	
 };
 
-let sample = [9,8,4,2];
+let sample = [9,8,7,6];
 
 bubblesort(sample);
 
@@ -32,7 +34,7 @@ bubblesort(sample);
 	//if they are in the wrong order. 
 	//This process is repeated until no more swaps are needed, 
 	//indicating that the list is sorted. 
-	
+
 	//Here's a step-by-step explanation of how bubble sort works:
 
 // 1. Start with an unsorted list of elements.
