@@ -46,17 +46,6 @@ function isPalindrome(str) {
 
 // ---------------------End of code ---------------------------------------------------------------------
 
-
-
-//   What is Palindrome and where are they use for 
-
-//   A palindrome checker algorithm is used to determine whether a given string or sequence of characters 
-//   is a palindrome. 
-//   A palindrome is a word, phrase, or sequence of characters 
-//   that reads the same forwards and backward (ignoring spaces, punctuation, and capitalization).
-
-// -------------------------------------------------------------------------------------------------------
-
 //   Explanation of the algorithm:
 
 //     First, we remove all non-alphanumeric characters from the string and convert it to lowercase. 
@@ -73,4 +62,15 @@ function isPalindrome(str) {
 // This algorithm is a straightforward way to check for palindromes in JavaScript. 
 // You can modify it as needed for more complex cases or to handle special requirements.
   
+
+// -------------------------------------------------------------------------------------------------------
   
+
+//   What is Palindrome and where are they use for 
+
+//   A palindrome checker algorithm is used to determine whether a given string or sequence of characters 
+//   is a palindrome. 
+//   A palindrome is a word, phrase, or sequence of characters 
+//   that reads the same forwards and backward (ignoring spaces, punctuation, and capitalization).
+
+
