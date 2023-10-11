@@ -35,6 +35,7 @@ function countCharacters(str) {
   for (let char in characterCounts) {
     console.log(`Character: ${char}, Count: ${characterCounts[char]}`);
   }
+// ---------------------End of code ---------------------------------------------------------------------
 
   
   //   Explanation of the algorithm:
@@ -52,7 +53,7 @@ function countCharacters(str) {
 
 //   Finally, we return the charCount object containing the character counts.
 
-
+// -------------------------------------------------------------------------------------------------------
 
 // The character counting algorithm can be used in various situations and applications 
 // where you need to analyze the frequency of characters in a given text or string. 
