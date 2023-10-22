@@ -26,8 +26,11 @@ let sample = [9,8,7,6];
 
 bubblesort(sample);
 
+// ---------------------End of code --------------------------------------
+
 
 // Explanation about Bubblesort Algorithms 
+
 	//Bubble sort is a simple and elementary sorting algorithm 
 	//that works by repeatedly stepping through the list to be sorted, 
 	//comparing each pair of adjacent items, and swapping them
@@ -39,17 +42,19 @@ bubblesort(sample);
 
 // 1. Start with an unsorted list of elements.
 
-// 2. Compare the first two elements in the list. If the first element is greater than the second element, swap them.
+// 2. Compare the first two elements in the list. 
+//	  If the first element is greater than the second element, swap them.
 
-// 3. Move to the next pair of elements (the second and third elements) and compare them. Again, swap if necessary.
+// 3. Move to the next pair of elements (the second and third elements) and compare them. 
+// 	  Again, swap if necessary.
 
 // 4. Continue this process, moving one pair at a time through the list, comparing and swapping as needed, 
-	//until you reach the end of the list. This completes one pass through the list.
+//		until you reach the end of the list. This completes one pass through the list.
 
 // 5. Repeat steps 2-4 for a total number of passes equal to the number of elements in the list.
 
 // 6. After each pass, the largest unsorted element will "bubble up" to the end of the list, 
-	//so you can reduce the number of comparisons in the next pass because you don't need to check the already sorted portion.
+//		so you can reduce the number of comparisons in the next pass because you don't need to check the already sorted portion.
 
 // 7. Continue this process until no swaps are made in a pass, which means the list is now sorted.
 
