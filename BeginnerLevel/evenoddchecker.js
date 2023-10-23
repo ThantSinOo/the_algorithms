@@ -1,9 +1,13 @@
 let evenOddChecker = ( arr ) =>{
+    let evenArray = [];
+    let oddArray = []; 
     for(let i = 0; i < arr.length; i ++){
         if(i % 2 === 0){
-             console.log("It is even");
+             console.log("It is even", evenArray);
+            evenArray.push(i);
         }else{
-             console.log("It is odd");
+             console.log("It is odd", oddArray);
+            oddArray.push(i);
         }
     }
 }
