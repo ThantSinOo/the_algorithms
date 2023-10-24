@@ -1,4 +1,3 @@
-console.log("Hello I am Repeat");
 
 let repeat_string_nth_times = (str,num)=>{
 	if(num < 1){
